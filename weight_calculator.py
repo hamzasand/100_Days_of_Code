@@ -1,6 +1,6 @@
 weight = 35
 height = 4.87
-
+#logic to calculate bmi
 bmi = weight /(height ** 2)
 
 if bmi < 18.5:
