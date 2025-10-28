@@ -1,5 +1,5 @@
 weight = 35
-height = 1.87
+height = 4.87
 
 bmi = weight /(height ** 2)
 
