@@ -16,7 +16,7 @@ if pep == "Y":
     else:
         price =+ 3
 
-che = input("are you want cheez: Y or N")
+che = input("are you want cheez: Y or N")# asked for extra cheese regardless size of pizza
 if che =="Y":
     price =+1
 
