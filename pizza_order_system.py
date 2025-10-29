@@ -1,11 +1,9 @@
 # Pizza orderd system
 price = 0
 print(" Welcome to Python Pizza Deliveries!")
-size = input("whats your pizza size S,M or L?")
+size = input("whats your pizza size S,M or L?") # taking input from users as l m or s
 if size == "S":
-
     price = 15
-        
 elif size == "M":
     price = 20
 else:
