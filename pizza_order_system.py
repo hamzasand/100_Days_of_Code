@@ -9,7 +9,7 @@ elif size == "M":
 else:
     price = 25
 
-pep = input("do you want peporoni on you pizza? Y or N:")
+pep = input("do you want peporoni on you pizza? Y or N:") # asked user for pepronie
 if pep == "Y":
     if size == "S":
         price =+ 2
