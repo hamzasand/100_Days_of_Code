@@ -14,7 +14,7 @@ def createfile():
         readfileandfolder()
         name = input("Please enter name of your file:-")
         p = Path(name)
-        if not p.exist():
+        if not p.exists():
             with open(p,"w") as f:
                 data = input("what you wantn to add:-")
                 f.write(data)
