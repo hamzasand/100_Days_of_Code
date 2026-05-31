@@ -8,3 +8,7 @@ class FactoryFaisalabad(FactoryLahore):
 
 obj = FactoryLahore()
 print(obj.var)
+
+obj2 = FactoryFaisalabad()
+print(obj2.var)
+obj2.hello()
