@@ -21,3 +21,5 @@ class Square(Abstract):
         print("i have calculate the area")
   
 obj = Square(7)
+obj.area()
+obj.parameter()
