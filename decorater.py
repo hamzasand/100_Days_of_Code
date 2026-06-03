@@ -1,7 +1,7 @@
 def decorate(func):
-    def wrapper(*args,**kwargs):
+    def wrapper(*args):
         print("i am print before fumction")
-        func(*args, **kwargs)
+        func(*args)
         print("i am print after function")
     return wrapper
 
