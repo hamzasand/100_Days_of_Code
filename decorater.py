@@ -1,13 +1,16 @@
 def decorate(func):
-    def wrapper(a,b):
+    def wrapper(*args,**kwargs):
         print("i am print before fumction")
-        func(a,b)
+        func(*args, **kwargs)
         print("i am print after function")
     return wrapper
 
 
 @decorate
-def add(a,b):
-    print(f"sum of you number is :{a+b}")
+def add(*args):
+    sum =0
+    for i in args:
+        sum =sum + i
+    print(f"sum of you number is :{sum}")
 
-add(12,12)
+add(12,12,22)
